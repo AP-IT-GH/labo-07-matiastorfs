@@ -1,0 +1,31 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 1000px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+a {
+    color: blue;
+    text-decoration: underline;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgb(240, 240, 240);
+}
+
+article {
+    width: 300px;
+    padding: 20px;
+}

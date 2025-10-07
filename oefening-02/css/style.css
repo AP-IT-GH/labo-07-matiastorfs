@@ -1,0 +1,40 @@
+body {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+a {
+    color: grey;
+    padding: 30px;
+}
+
+nav {
+    display: flex;
+    left: 20px;
+    padding: 30px;
+}
+
+main {
+    padding: 20px;
+    background-image: url("images/achtergrond.webp");
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item {
+    width: 50%;
+    padding: 20px;
+}
+
+.item-3 {
+    padding: 20px;
+    background-color: rgba(139, 211, 146, 0.5);
+}
+
+.item-6 {
+    padding: 20px;
+    background-color: rgba(139, 211, 146, 0.5);
+}
